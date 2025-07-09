@@ -40,7 +40,7 @@ jobs:
           # 支持Gitee, Github and Gitlab
           src: github/shibeta
           # 支持Gitee, Github and Gitlab
-          dst: gitee/shibeta
+          dst: gitlab/shibeta
           dst_key: ${{ secrets.GITLAB_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITLAB_TOKEN }}
           static_list: "ClashRule"
