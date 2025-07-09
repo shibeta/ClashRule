@@ -43,6 +43,7 @@ jobs:
           dst: gitee/shibeta
           dst_key: ${{ secrets.GITLAB_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITLAB_TOKEN }}
+          static_list: "ClashRule"
           # 支持Github/Gitee的用户、组织以及Gitlab的组
           # account_type: org
           # 支持分别设置源和目的端的类型
